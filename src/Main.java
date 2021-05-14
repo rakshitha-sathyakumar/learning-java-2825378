@@ -9,6 +9,7 @@ public class Main {
         if (amount < 0) {
             return -1;
         }
+        
         double totalWeek = hours * amount;
         double totalYear = totalWeek * 52;
         return totalYear;
